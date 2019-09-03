@@ -29,6 +29,10 @@
 		{{- if eq ($.Scratch.Get "isDisqus") true -}}
 		{{- partial "disqus.html" . -}}
 		{{- end -}}
+
+		<!-- gitalk -->
+		{{- partial "gitalk.html" . -}}
+
 	</div>
 	{{ partial "footer.html" . }}
 </body>
