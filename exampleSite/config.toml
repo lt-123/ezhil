@@ -19,6 +19,9 @@ disqusShortname = "localhost"
 	disableDisqusTypes = ["page"]
 	featherIconsCDN = true
 
+	# gitalk
+    enableGitalk = true
+
 [[menu.main]]
 name = "Home"
 url = "/"
@@ -58,8 +61,6 @@ url = "/index.xml"
    tag = "tags"
 
 # gitalk
-[params]
-  enableGitalk = true
 [params.gitalk]
     clientID = "0c8433a4b7bf3528d71d" # Your client ID
     clientSecret = "77bcf406f88176d863e642df7e89dab830506265" # Your client secret
